@@ -20,13 +20,18 @@ include 'connect.php';
 
 <body>
     <div class="container my-5">
+
+        <div class="w-100 d-flex align-items-center justify-content-center">
+            <h1 class="fw-bold">Php TODO app</h1>
+        </div>
+
         <button class=" btn btn-primary">
             <a href="user.php" class="text-light text-decoration-none">
                 Add User
             </a>
         </button>
 
-        <table class="table">
+        <table class="table my-4">
             <thead>
                 <tr>
                     <th scope="col">#</th>
